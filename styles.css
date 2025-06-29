@@ -1,0 +1,85 @@
+/* ===== Завдання 1 ===== */
+.text-box h3:first-of-type {
+  color: pink;
+}
+
+#greycol {
+  color: grey;
+}
+
+.text-box div > p {
+  color: red;
+}
+
+.text-box p:nth-of-type(3) {
+  color: green;
+}
+
+.text-box .yellow {
+  color: yellow;
+}
+
+/* ===== Завдання 2 ===== */
+
+/* Кольори для кожного дня */
+.day.monday li {
+  color: blue;
+}
+
+.day.tuesday li {
+  color: green;
+}
+
+.day.wednesday li {
+  color: orange;
+}
+
+.day.thursday li {
+  color: purple;
+}
+
+.day.friday li {
+  color: brown;
+}
+
+/* 5 псевдокласів стану */
+li:hover {
+  font-weight: bold;
+}
+
+li:active {
+  transform: scale(1.1);
+}
+
+li:focus {
+  outline: 2px dashed red;
+}
+
+li:visited {
+  color: darkgrey;
+}
+
+li:target {
+  background-color: yellow;
+}
+
+/* 5 структурних псевдокласів */
+li:first-child {
+  text-decoration: underline;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+li:nth-child(2) {
+  background-color: #f0f0f0;
+}
+
+li:nth-of-type(3) {
+  font-size: 1.2em;
+}
+
+li:not(:first-child) {
+  padding-left: 10px;
+}
